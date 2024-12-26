@@ -3,7 +3,7 @@ import os
 import math
 
 
-def split_csv(input_file, output_prefix="split_contacts", rows_per_file=1000):
+def split_csv(input_file, output_prefix="split_contacts", rows_per_file=5000):
     """
     Split a CSV file into multiple files with specified number of rows
 
